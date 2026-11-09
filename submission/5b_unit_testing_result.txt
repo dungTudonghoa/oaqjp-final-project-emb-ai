@@ -1,0 +1,20 @@
+$ python3 test_emotion_detection.py
+test_anger (__main__.TestEmotionDetector.test_anger)
+Angry text maps to anger. ... ok
+test_disgust (__main__.TestEmotionDetector.test_disgust)
+Disgusted text maps to disgust. ... ok
+test_empty_input (__main__.TestEmotionDetector.test_empty_input)
+Empty input does not contact the external service. ... ok
+test_fear (__main__.TestEmotionDetector.test_fear)
+Afraid text maps to fear. ... ok
+test_http_400 (__main__.TestEmotionDetector.test_http_400)
+The API's 400 status produces an empty-result dictionary. ... ok
+test_joy (__main__.TestEmotionDetector.test_joy)
+Happy text maps to joy. ... ok
+test_sadness (__main__.TestEmotionDetector.test_sadness)
+Sad text maps to sadness. ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.003s
+
+OK

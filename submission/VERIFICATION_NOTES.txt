@@ -1,0 +1,1 @@
+Unit tests run with a mocked Watson HTTP response. The live Watson service was not reachable (connect timeout). Screenshot 7c is a real browser interaction with the Flask blank-input handler. Screenshot 6b is not supplied because live detection cannot be verified.
