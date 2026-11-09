@@ -1,0 +1,27 @@
+theia@theiadocker-contuetinh:/home/project/final_project$ python3
+Python 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> print(emotion_detector('I am really mad about this'))
+{'anger': 0.6674731, 'disgust': 0.022848725, 'fear': 0.09749009, 'joy': 0.01863918, 'sadness': 0.1953058, 'dominant_emotion': 'anger'}
+>>> exit()
+theia@theiadocker-contuetinh:/home/project/final_project$ python3 test_emotion_detection.py
+test_anger (__main__.TestEmotionDetector.test_anger)
+Angry text maps to anger. ... ok
+test_disgust (__main__.TestEmotionDetector.test_disgust)
+Disgusted text maps to disgust. ... ok
+test_empty_input (__main__.TestEmotionDetector.test_empty_input)
+Empty input does not contact the external service. ... ok
+test_fear (__main__.TestEmotionDetector.test_fear)
+Afraid text maps to fear. ... ok
+test_http_400 (__main__.TestEmotionDetector.test_http_400)
+The API's 400 status produces an empty-result dictionary. ... ok
+test_joy (__main__.TestEmotionDetector.test_joy)
+Happy text maps to joy. ... ok
+test_sadness (__main__.TestEmotionDetector.test_sadness)
+Sad text maps to sadness. ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.009s
+
+OK

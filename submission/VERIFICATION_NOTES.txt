@@ -1,1 +1,5 @@
-Unit tests run with a mocked Watson HTTP response. The live Watson service was not reachable (connect timeout). Screenshot 7c is a real browser interaction with the Flask blank-input handler. Screenshot 6b is not supplied because live detection cannot be verified.
+IBM Skills Network Cloud IDE lab workspace: /home/project/final_project
+Watson NLP live requests verified on 2026-11-09 through the IBM Cloud IDE. Example results are preserved in 2b_application_creation.txt, 3b_formatted_output_test.txt, and 4b_packaging_test.txt, transcribed from live terminal outputs and associated screenshots.
+7 unit tests passed in the IBM Cloud IDE. Pylint server.py returned 10.00/10.
+6b_deployment_test.png and 7c_error_handling_interface.png are screenshots of actual Flask runs in IBM Cloud IDE: successful joy classification and invalid blank input.
+Important: Mark submission may have accidental pasted terminal fragments in Question 2 if its text editor was focused during remote keyboard actions. Review Question 2 before submitting.
