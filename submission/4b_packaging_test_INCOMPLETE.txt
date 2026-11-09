@@ -1,2 +1,0 @@
-$ python3 -c "from EmotionDetection.emotion_detection import emotion_detector; print(emotion_detector('I am very angry'))"
-Not available: Watson endpoint times out from this environment. Run in the course lab and capture the actual result.
